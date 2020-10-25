@@ -1,12 +1,12 @@
 
 
-function showPic_btn1(src) {
-    document.getElementById("img1").src=src;
+function showPic_btn1(src1) {
+    document.getElementById("img1").src=src1;
 
 }
 
-function showPic_btn2(src) {
-    document.getElementById("img2").src=src;
+function showPic_btn2(src2) {
+    document.getElementById("img2").src=src2;
 }
 
 function uploadFile() {
