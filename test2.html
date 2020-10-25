@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta charset="UTF-8">
+    <title>BigDaddy</title>
+    <link rel="stylesheet" type="text/css" href="common.css">
+<!--    <link  rel="stylesheet" type="text/css" href="mobile.css">-->
+<!--    <link media="(min-witdth:720px)" rel="stylesheet" type="text/css" href="desktop.css">-->
+</head>
+<style>
+</style>
+<body>
+
+<div  class="div1">
+    <br> <br> <br>
+    <img src="logo.png"/>
+    <br> <br><br> <br> <br> <br>
+</div>
+
+<br>
+<div class="div2">
+    <p class="p1">大宝贝助手</p>
+    <br>
+</div>
+
+<div class="div3">
+    <p   id="p" class="p2" >选择要上传的文件</p>
+</div>
+
+<div class="div4">
+    <input type="file" id="btn_file" style="display:none">
+    <br>
+    <button type="button"  onclick="uploadFile()"  class="btn1">
+
+            <img src="select_but.png" onmouseover="showPic_btn1('select_but_light.png')" onmouseout=showPic_btn1('select_but.png')
+                 onmousedown="showPic_btn1('select_but_click.png')" onmouseup="showPic_btn1('select_but.png')" id="img1"/>
+
+    </button>
+
+</div>
+
+<div class="div5">
+    <button type="button" class="btn2">
+        <img src="upload_but.png" onmouseover="showPic_btn2('upload_but_light.png')" onmouseout=showPic_btn2('upload_but.png')
+             onmousedown="showPic_btn2('upload_but_click.png')" onmouseup="showPic_btn1('upload_but.png')" id="img2"/>
+
+    </button>
+</div>
+
+<script src="jsToBigDaddy.js" type="text/javascript">
+</script>
+
+</body>
+</html>
